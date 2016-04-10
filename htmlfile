@@ -1,0 +1,73 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster|IM+Fell+English+SC|Revalia|Kanit" rel="stylesheet" type="text/css">
+
+<body style ="background-color: #666">
+  <div id="maindiv" class="container-fluid">
+    
+    <div class="row" style="padding: 40px 0px 50px 100px; margin-left: 300px">
+        <div class="row col-xs-2 lobster-font"><button class="topbtn">About</button></div>
+      <div class="row col-xs-3 lobster-font" style="padding-left: 50px"><button class="topbtn">Portfolio</button></div>
+      <div class="row col-xs-1 lobster-font"><button class="topbtn">Contact</button></div>
+    </div>
+      
+      <div class="row col-xs-12 text-center boundary">
+        <p class="lobster-font">About Me</p>
+      </div>
+      
+      <div> 
+        <div class="row"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10 _40padding" style="background-color: #39dc99">
+          <img id="profilepic" src="https://odesk-prod-portraits.s3.amazonaws.com/Users:rjyama:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=kHpw8VIyRqQV5%2FHQyxlsiJoklgw%3D&uKg8x">
+          <p id="abtme">I'm Reymund John Pagdanganan, 26 years of age and currently taking my bachelor's degree in Computer Science while working as a freelancer to get myself through college. I am working online via Upwork for a couple of years now and you can find my Upwork profile <a href="https://www.upwork.com/freelancers/~0165ca64d712939e2e?viewMode=1" target="_blank" style="color: #397cdc">here</a>. I'm currently learning web development through <a href="https://www.freecodecamp.com" target="_blank" style="color: #397cdc">freecodecamp</a> and this page is created from what I currently know.</p></div>
+      </div>
+      
+      <div class="boundary">
+        <div>
+        <p> * </p>
+        </div>
+        <p class="lobster-font">Portfolio</p>
+      </div>
+      
+      <div>
+        <div class="row"></div> 
+        <div class="col-xs-1"></div>
+          <div class="col-xs-10 _40padding" style="background-color: #39dc99">
+          <img class="img-responsive border-white padd5px" src="http://s21.postimg.org/vmgbyokt3/Screen_Shot_2016_04_07_at_5_46_34_AM.png">
+         </div>
+      </div>     
+      
+      <div class="row col-xs-12 text-center boundary">
+        <div>
+        <p> * </p>
+        </div>
+        <p class="lobster-font">Contact</p>
+      </div>
+      
+      <div>
+        <div class="row"></div> 
+        <div class="col-xs-1"></div>
+          <div class="col-xs-10 _40padding" style="background-color: #39dc99">
+            <div class="row col-xs-6 inputs">
+            <form action="/url-where-you-want-to-submit-form-data">
+              <input type="text" placeholder="Name">
+            </form>
+              <form action="/url-where-you-want-to-submit-form-data">
+              <input type="text" placeholder="Email Address">
+            </form>
+              <form action="/url-where-you-want-to-submit-form-data">
+              <input type="text" placeholder="Phone Number">
+            </form>
+              <form action="/url-where-you-want-to-submit-form-data">
+                <textarea placeholder="Message"></textarea>
+            </form>
+              <button style="color: black; width: 15%; height: 30px; border-radius: 10px; background-color: white;">Send!</button>
+            </div>
+            <div class="row col-xs-6 text-center">Feel free to send me a message. Will also work for food! :D</div>
+         </div>
+      </div> 
+      
+      <div class="row"></div>
+      <div class="row col-m-8"><h5 class="text-center" id="me">Written and Coded by <a href="https://www.freecodecamp.com/rjyama" target="_blank">Reymund Pagdanganan</a></h5></div>
+        
+  </div>
+</body>
