@@ -1,0 +1,4 @@
+$("#profilepic").addClass("col-xs-2");
+$(".boundary").children().addClass("text-center col-xs-12 _40padding");
+$(".boundary").css("font-size", "30px");
+$(".inputs").children().css("padding-bottom", "20px");
