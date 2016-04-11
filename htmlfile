@@ -52,17 +52,11 @@
             <div class="row col-xs-6 inputs">
             <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Name">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Email Address">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Phone Number">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
                 <textarea placeholder="Message"></textarea>
-            </form>
               <button style="color: black; width: 15%; height: 30px; border-radius: 10px; background-color: white;">Send!</button>
+            </form>
             </div>
             <div class="row col-xs-6 text-center">Feel free to send me a message. Will also work for food! :D</div>
          </div>
