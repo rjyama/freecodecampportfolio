@@ -2,3 +2,18 @@ $("#profilepic").addClass("col-xs-2");
 $(".boundary").children().addClass("text-center col-xs-12 _40padding");
 $(".boundary").css("font-size", "30px");
 $(".inputs").children().css("padding-bottom", "20px");
+$(".frstbtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".first").offset().top},
+        'slow');
+});
+$(".scndbtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".second").offset().top},
+        'slow');
+});
+$(".thrdbtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".third").offset().top},
+        'slow');
+});
