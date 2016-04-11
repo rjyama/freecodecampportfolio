@@ -3,13 +3,15 @@
 <body style ="background-color: #666">
   <div id="maindiv" class="container-fluid">
     
-    <div class="row" style="padding: 40px 0px 50px 100px; margin-left: 300px">
-        <div class="row col-xs-2 lobster-font"><button class="topbtn">About</button></div>
-      <div class="row col-xs-3 lobster-font" style="padding-left: 50px"><button class="topbtn">Portfolio</button></div>
-      <div class="row col-xs-1 lobster-font"><button class="topbtn">Contact</button></div>
+    <div class="row col-xs-6" style="margin: 40px 0px 50px 0px"></div>
+    <div class="row" style="margin: 40px 0px 50px 0px">
+      <div class="row col-xs-2"></div>
+      <div class="row col-xs-1 lobster-font"><button class="topbtn frstbtn">About</button></div>
+      <div class="row col-xs-2 lobster-font" style="padding-left: 50px"><button class="topbtn scndbtn">Portfolio</button></div>
+      <div class="row col-xs-1 lobster-font thrdbtn"><button class="topbtn">Contact</button></div>
     </div>
       
-      <div class="row col-xs-12 text-center boundary">
+      <div class="row col-xs-12 text-center boundary first">
         <p class="lobster-font">About Me</p>
       </div>
       
@@ -25,7 +27,7 @@
         <div>
         <p> * </p>
         </div>
-        <p class="lobster-font">Portfolio</p>
+        <p class="lobster-font second">Portfolio</p>
       </div>
       
       <div>
@@ -40,12 +42,12 @@
         <div>
         <p> * </p>
         </div>
-        <p class="lobster-font">Contact</p>
+        <p class="lobster-font ">Contact</p>
       </div>
       
       <div>
         <div class="row"></div> 
-        <div class="col-xs-1"></div>
+        <div class="col-xs-1 third"></div>
           <div class="col-xs-10 _40padding" style="background-color: #39dc99">
             <div class="row col-xs-6 inputs">
             <form action="/url-where-you-want-to-submit-form-data">
