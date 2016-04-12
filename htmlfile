@@ -3,13 +3,15 @@
 <body style ="background-color: #666">
   <div id="maindiv" class="container-fluid">
     
-    <div class="row" style="padding: 40px 0px 50px 100px; margin-left: 300px">
-        <div class="row col-xs-2 lobster-font"><button class="topbtn">About</button></div>
-      <div class="row col-xs-3 lobster-font" style="padding-left: 50px"><button class="topbtn">Portfolio</button></div>
-      <div class="row col-xs-1 lobster-font"><button class="topbtn">Contact</button></div>
+    <div class="row col-xs-6" style="margin: 40px 0px 50px 0px"></div>
+    <div class="row" style="margin: 40px 0px 50px 0px">
+      <div class="row col-xs-2"></div>
+      <div class="row col-xs-1 lobster-font"><button class="topbtn frstbtn">About</button></div>
+      <div class="row col-xs-2 lobster-font" style="padding-left: 50px"><button class="topbtn scndbtn">Portfolio</button></div>
+      <div class="row col-xs-1 lobster-font thrdbtn"><button class="topbtn">Contact</button></div>
     </div>
       
-      <div class="row col-xs-12 text-center boundary">
+      <div class="row col-xs-12 text-center boundary first">
         <p class="lobster-font">About Me</p>
       </div>
       
@@ -25,7 +27,7 @@
         <div>
         <p> * </p>
         </div>
-        <p class="lobster-font">Portfolio</p>
+        <p class="lobster-font second">Portfolio</p>
       </div>
       
       <div>
@@ -40,34 +42,34 @@
         <div>
         <p> * </p>
         </div>
-        <p class="lobster-font">Contact</p>
+        <p class="lobster-font ">Contact</p>
       </div>
       
       <div>
         <div class="row"></div> 
-        <div class="col-xs-1"></div>
+        <div class="col-xs-1 third"></div>
           <div class="col-xs-10 _40padding" style="background-color: #39dc99">
             <div class="row col-xs-6 inputs">
             <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Name">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Email Address">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
               <input type="text" placeholder="Phone Number">
-            </form>
-              <form action="/url-where-you-want-to-submit-form-data">
                 <textarea placeholder="Message"></textarea>
-            </form>
               <button style="color: black; width: 15%; height: 30px; border-radius: 10px; background-color: white;">Send!</button>
+            </form>
             </div>
-            <div class="row col-xs-6 text-center">Feel free to send me a message. Will also work for food! :D</div>
+            <div class="row col-xs-6 text-center" style="align-content: center"><p>Feel free to send me a message. Will also work for food! :D</p></div>
          </div>
       </div> 
       
       <div class="row"></div>
-      <div class="row col-m-8"><h5 class="text-center" id="me">Written and Coded by <a href="https://www.freecodecamp.com/rjyama" target="_blank">Reymund Pagdanganan</a></h5></div>
+        <div class="row col-m-8"><h5 class="text-center" id="me">Written and Coded by <a href="https://www.freecodecamp.com/rjyama" target="_blank">Reymund Pagdanganan</a></h5></div>
+        <div class="text-center">
+          <form action="github.com/rjyama">
+            <button type="submit"><img src="http://s18.postimg.org/le4cooh6t/Git_Hub_Mark_120px_plus.png" class="img-responsive logo"></button>
+          </form>
+        <button><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" class="img-responsive logo"></button>
+      </div>
         
   </div>
 </body>
