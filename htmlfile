@@ -58,12 +58,18 @@
               <button style="color: black; width: 15%; height: 30px; border-radius: 10px; background-color: white;">Send!</button>
             </form>
             </div>
-            <div class="row col-xs-6 text-center">Feel free to send me a message. Will also work for food! :D</div>
+            <div class="row col-xs-6 text-center" style="align-content: center"><p>Feel free to send me a message. Will also work for food! :D</p></div>
          </div>
       </div> 
       
       <div class="row"></div>
-      <div class="row col-m-8"><h5 class="text-center" id="me">Written and Coded by <a href="https://www.freecodecamp.com/rjyama" target="_blank">Reymund Pagdanganan</a></h5></div>
+        <div class="row col-m-8"><h5 class="text-center" id="me">Written and Coded by <a href="https://www.freecodecamp.com/rjyama" target="_blank">Reymund Pagdanganan</a></h5></div>
+        <div class="text-center">
+          <form action="github.com/rjyama">
+            <button type="submit"><img src="http://s18.postimg.org/le4cooh6t/Git_Hub_Mark_120px_plus.png" class="img-responsive logo"></button>
+          </form>
+        <button><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" class="img-responsive logo"></button>
+      </div>
         
   </div>
 </body>
