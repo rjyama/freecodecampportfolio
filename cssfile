@@ -12,9 +12,9 @@
   padding: 40px 40px 40px 40px;
 }
 #profilepic {
-  border-radius: 70px;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-right: 30px;
+  border-radius: 40px;
 }
 #boundary {
   font-size: 30px;
@@ -40,6 +40,7 @@ input {
   height: 50px;
   text-align: center;
   font-family: Kanit;
+  margin-bottom: 10px;
 }
 textarea {
   width: 100%;
@@ -50,4 +51,20 @@ textarea {
   background-color: #39cedc;
   border: none;
   font-size: 30px;
+}
+#me {
+  margin: 50px 30px 20px 30px;
+}
+.logo:hover {
+  background-color: #ddd;
+  border-radius: 40px;
+}
+.topbtn:hover {
+  background-color: #bbb;
+  border-radius: 40px;
+}
+.logo {
+  width: 40px;
+  display: inline;
+  margin: auto;
 }
